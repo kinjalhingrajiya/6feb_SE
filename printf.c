@@ -7,8 +7,8 @@
 #include<stdio.h>
 main()
 {
-	printf("Name : Kinjal Sutarsandhiya");
+	printf("Name            : Kinjal Sutarsandhiya");
 	printf("\nDate Of Birth : 11/08/1996");
-	printf("\nAge : 26");
-	printf("\nAddress : B-201,Divya Recidency,Nikol,Ahmedabad");
+	printf("\nAge           : 26");
+	printf("\nAddress       : B-201,Divya Recidency,Nikol,Ahmedabad");
 }
