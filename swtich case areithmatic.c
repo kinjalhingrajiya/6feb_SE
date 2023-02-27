@@ -4,10 +4,10 @@ main()
 	char c;
 	int a,b;
 	float ans;
-	printf("Press A for Addition");
-	printf("\nPress S for Substraction");
-	printf("\nPress M for Multi[lication");
-	printf("\nPress D for Division");
+	printf("Press + for Addition");
+	printf("\nPress - for Substraction");
+	printf("\nPress * for Multi[lication");
+	printf("\nPress / for Division");
 	printf("\nEnter your Choice :");
 	scanf("%c",&c);
 	printf("\nEnter value of a: ");
@@ -16,19 +16,19 @@ main()
 	scanf("%d",&b);
 	switch(c)
 	{
-		case 'A':
+		case '+':
 		ans=a+b;
 		printf("\n Addtion is %d + %d = %f",a,b,ans);
 		break;
-		case 'S':
+		case '-':
 		ans=a-b;
 		printf("\n Subtraction is %d - %d = %f",a,b,ans);
 		break;
-		case 'M':
+		case '*':
 		ans=a*b;
 		printf("\n Multiplication is %d * %d = %f",a,b,ans);
 		break;
-		case 'D':
+		case '/':
 		ans=a/b;
 		printf("\n Division is %d / %d = %f",a,b,ans);
 		break;
